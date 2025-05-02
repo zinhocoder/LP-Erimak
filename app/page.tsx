@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/maxgutter1.jpg?height=400&width=600"
                 alt="Extrusora MaxGutter"
                 fill
                 className="object-cover"

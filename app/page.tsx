@@ -30,12 +30,12 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold tracking-tight mb-6">
-                Revolucione sua produção com a Extrusora MaxGutter
+                Revolucione sua produção com as Extrusoras de alta tecnologia da Erimak
               </h2>
               <p className="text-gray-600 mb-6">
-                A Extrusora de Perfis de Concreto MaxGutter representa o que há de mais avançado em tecnologia para a
-                produção de elementos pré-fabricados de concreto. Desenvolvida pela ERIMAK, líder no setor de máquinas
-                para construção civil, a MaxGutter combina precisão, eficiência e durabilidade.
+                As Extrusoras de Perfis de Concreto representam o que há de mais avançado em tecnologia para a
+                produção de elementos pré-fabricados de concreto. Desenvolvidas pela ERIMAK, líder no setor de máquinas
+                para construção civil, as nossas máquinas combinam precisão, eficiência e durabilidade.
               </p>
               <p className="text-gray-600 mb-6">
                 Com mais de 20 anos de experiência no mercado, a ERIMAK entende as necessidades dos profissionais da
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/maxgutter1.jpg?height=400&width=600"
+                src="/3juntaserimak.png?height=400&width=600"
                 alt="Extrusora MaxGutter"
                 fill
                 className="object-cover"

@@ -27,7 +27,7 @@ export default function HeroSection() {
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">Extrusora MaxGutter</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">Extrusoras de Perfis de Concreto</h1>
             <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-xl">
               Revolucione a produção de perfis de concreto com a mais avançada tecnologia do mercado.
             </p>
@@ -51,9 +51,9 @@ export default function HeroSection() {
           </div>
 
           <div className="relative flex justify-center">
-            <div className="relative w-full max-w-[400px]">
+            <div className="relative w-full max-w-[650px]">
               <Image
-                src="/machine.png"
+                src="/3extrusoras.png"
                 alt="Extrusora MaxGutter ERIMAK"
                 width={400}
                 height={400}

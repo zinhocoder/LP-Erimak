@@ -3,7 +3,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Play, FileText, Download } from "lucide-react"
 import { useState } from "react"
 
 export default function ProductDemo() {
@@ -23,40 +22,21 @@ export default function ProductDemo() {
           src: "/images/maxgutter1.jpg?height=300&width=400&text=MaxGutter 1",
           alt: "MaxGutter - Vista frontal",
           title: "Vista frontal da MaxGutter",
-          description: "Visualize o design robusto e os componentes de alta precisão",
+          description: "Visualize o design robusto e os componentes de alta precisão"
         },
         {
-          src: "/images/maxpainel.png?height=300&width=400&text=MaxGutter 2",
-          alt: "MaxGutter - Painel de controle",
-          title: "Painel de controle touchscreen",
-          description: "Interface intuitiva com tela de 15 polegadas",
+          src: "/images/maxgutter4.jpg?height=300&width=400&text=Operando MaxGutter",
+          alt: "MaxGutter - Em operação por operador",
+          title: "Operação da MaxGutter",
+          description: "Veja a máquina sendo operada com precisão"
         },
         {
-          src: "/images/maxestrusao.png?height=300&width=400&text=MaxGutter 3",
-          alt: "MaxGutter - Sistema de extrusão",
-          title: "Sistema de extrusão avançado",
-          description: "Componentes de alta durabilidade para máxima produtividade",
-        },
-        {
-          src: "/images/maxalimentacao.png?height=300&width=400&text=MaxGutter 4",
-          alt: "MaxGutter - Silo de alimentação",
-          title: "Silo de alimentação de 2.000kg",
-          description: "Capacidade para longos períodos de operação contínua",
-        },
-        {
-          src: "/images/maxhidraulico.png?height=300&width=400&text=MaxGutter 5",
-          alt: "MaxGutter - Sistema hidráulico",
-          title: "Sistema hidráulico de precisão",
-          description: "Controle fino para resultados consistentes",
-        },
-        {
-          src: "/images/maxproducao.png?height=300&width=400&text=MaxGutter 6",
-          alt: "MaxGutter - Em operação",
-          title: "MaxGutter em operação",
-          description: "Veja a máquina produzindo perfis de concreto",
-        },
+          src: "/images/maxproducao.png?height=300&width=400&text=Produção MaxGutter",
+          alt: "MaxGutter - Produção",
+          title: "Produção com MaxGutter",
+          description: "Máxima performance na fabricação de perfis"
+        }
       ],
-      video: "/placeholder.svg?height=720&width=1280&text=Vídeo MaxGutter",
     },
     midgutter: {
       name: "MidGutter",
@@ -71,40 +51,21 @@ export default function ProductDemo() {
           src: "/images/maxgutter2.jpg?height=300&width=400&text=MidGutter 1",
           alt: "MidGutter - Vista frontal",
           title: "Vista frontal da MidGutter",
-          description: "Design compacto e eficiente para médias produções",
+          description: "Design compacto e eficiente para médias produções"
         },
         {
-          src: "/images/midpainel.png?height=300&width=400&text=MidGutter 2",
-          alt: "MidGutter - Painel de controle",
-          title: "Painel de controle digital",
-          description: "Interface de 10 polegadas para fácil operação",
+          src: "/images/maxgutter5.jpg?height=300&width=400&text=Operando MidGutter",
+          alt: "MidGutter - Em operação por operador",
+          title: "Operação da MidGutter",
+          description: "Controle simplificado e desempenho balanceado"
         },
         {
-          src: "/images/midextrusao.png?height=300&width=400&text=MidGutter 3",
-          alt: "MidGutter - Sistema de extrusão",
-          title: "Sistema de extrusão balanceado",
-          description: "Equilíbrio perfeito entre desempenho e custo",
-        },
-        {
-          src: "/images/midalimentacao.png?height=300&width=400&text=MidGutter 4",
-          alt: "MidGutter - Silo de alimentação",
-          title: "Silo de alimentação de 1.500kg",
-          description: "Capacidade ideal para operações de médio porte",
-        },
-        {
-          src: "/images/midvibracao.png?height=300&width=400&text=MidGutter 5",
-          alt: "MidGutter - Sistema de vibração",
-          title: "Sistema de vibração ajustável",
-          description: "Controle preciso para diferentes tipos de concreto",
-        },
-        {
-          src: "/images/midproducao.png?height=300&width=400&text=MidGutter 6",
-          alt: "MidGutter - Em operação",
-          title: "MidGutter em operação",
-          description: "Produção eficiente de perfis de concreto",
-        },
+          src: "/images/midproducao.png?height=300&width=400&text=Produção MidGutter",
+          alt: "MidGutter - Produção",
+          title: "Produção com MidGutter",
+          description: "Processo produtivo eficiente em andamento"
+        }
       ],
-      video: "/placeholder.svg?height=720&width=1280&text=Vídeo MidGutter",
     },
     ecogutter: {
       name: "ecoGutter",
@@ -119,40 +80,21 @@ export default function ProductDemo() {
           src: "/images/maxgutter3.jpg?height=300&width=400&text=ecoGutter 1",
           alt: "ecoGutter - Vista frontal",
           title: "Vista frontal da ecoGutter",
-          description: "Design inovador com foco em sustentabilidade",
+          description: "Design inovador com foco em sustentabilidade"
         },
         {
-          src: "/images/fotovoltaico.png?height=300&width=400&text=ecoGutter 2",
-          alt: "ecoGutter - Sistema fotovoltaico",
-          title: "Sistema fotovoltaico integrado",
-          description: "Painéis solares para operação com energia limpa",
+          src: "/images/maxgutter6.jpg?height=300&width=400&text=Operando ecoGutter",
+          alt: "ecoGutter - Em operação por operador",
+          title: "Operação da ecoGutter",
+          description: "Eficiência energética sendo aplicada em campo"
         },
         {
-          src: "/images/ecoextracao.png?height=300&width=400&text=ecoGutter 3",
-          alt: "ecoGutter - Sistema de extração com siya",
-          title: "Sistema de extração com siya",
-          description: "Tecnologia exclusiva para maior eficiência energética",
-        },
-        {
-          src: "/images/ecoignicao.png?height=300&width=400&text=ecoGutter 4",
-          alt: "ecoGutter - Sistema de ignição biométrica",
-          title: "Sistema de ignição biométrica",
-          description: "Segurança avançada com reconhecimento de impressão digital",
-        },
-        {
-          src: "/images/ecobiometria.png?height=300&width=400&text=ecoGutter 5",
-          alt: "ecoGutter - Painel de controle",
-          title: "Painel de controle com biometria",
-          description: "Interface moderna com controle de acesso seguro",
-        },
-        {
-          src: "/images/ecoproducao.png?height=300&width=400&text=ecoGutter 6",
-          alt: "ecoGutter - Em operação",
-          title: "ecoGutter em operação",
-          description: "Produção sustentável de perfis de concreto",
-        },
+          src: "/images/ecoproducao.png?height=300&width=400&text=Produção ecoGutter",
+          alt: "ecoGutter - Produção",
+          title: "Produção com ecoGutter",
+          description: "Alta performance com foco sustentável"
+        }
       ],
-      video: "/placeholder.svg?height=720&width=1280&text=Vídeo ecoGutter",
     },
   }
 
@@ -164,8 +106,7 @@ export default function ProductDemo() {
         <div className="text-center max-w-3xl mx-auto mb-8">
           <h2 className="text-3xl font-bold tracking-tight mb-4">Conheça Nossas Extrusoras</h2>
           <p className="text-gray-600">
-            Descubra como as extrusoras ERIMAK podem transformar sua produção de perfis de concreto com eficiência e
-            precisão incomparáveis.
+            Descubra como as extrusoras ERIMAK podem transformar sua produção de perfis de concreto com eficiência e precisão incomparáveis.
           </p>
         </div>
 
@@ -207,10 +148,9 @@ export default function ProductDemo() {
         </div>
 
         <Tabs defaultValue="desenho" className="w-full">
-          <TabsList className="grid w-full md:w-[400px] grid-cols-3 mx-auto mb-8">
+          <TabsList className="grid w-full md:w-[300px] grid-cols-2 mx-auto mb-8">
             <TabsTrigger value="desenho">Desenho</TabsTrigger>
             <TabsTrigger value="galeria">Galeria</TabsTrigger>
-            <TabsTrigger value="video">Vídeo</TabsTrigger>
           </TabsList>
 
           <TabsContent value="desenho" className="mt-6">
@@ -232,7 +172,7 @@ export default function ProductDemo() {
                     onClick={() =>
                       window.open(
                         `https://wa.me/5517997398569?text=Desejo%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20extrusora%20${currentModel.name}%20da%20Erimak%20Brasil`,
-                        "_blank",
+                        "_blank"
                       )
                     }
                   >
@@ -259,61 +199,6 @@ export default function ProductDemo() {
                   </div>
                 </div>
               ))}
-            </div>
-          </TabsContent>
-
-          <TabsContent value="video" className="mt-6">
-            <div className="aspect-video max-w-4xl mx-auto bg-black rounded-lg overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Image
-                  src={currentModel.video || "/placeholder.svg"}
-                  alt={`Vídeo demonstrativo da ${currentModel.name}`}
-                  width={1280}
-                  height={720}
-                  className="w-full h-full object-cover opacity-70"
-                />
-                <Button
-                  size="lg"
-                  className="absolute bg-green-700 hover:bg-green-800 rounded-full w-16 h-16 flex items-center justify-center"
-                  onClick={() =>
-                    window.open(
-                      `https://wa.me/5517997398569?text=Desejo%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20extrusora%20${currentModel.name}%20da%20Erimak%20Brasil`,
-                      "_blank",
-                    )
-                  }
-                >
-                  <Play className="h-8 w-8" />
-                </Button>
-              </div>
-            </div>
-            <div className="mt-6 text-center">
-              <p className="text-gray-600 mb-4">Assista ao vídeo completo para ver a {currentModel.name} em operação</p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button
-                  variant="outline"
-                  className="border-green-700 text-green-700 hover:bg-green-50"
-                  onClick={() =>
-                    window.open(
-                      `https://wa.me/5517997398569?text=Desejo%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20extrusora%20${currentModel.name}%20da%20Erimak%20Brasil`,
-                      "_blank",
-                    )
-                  }
-                >
-                  <FileText className="mr-2 h-4 w-4" /> Ver Especificações
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-green-700 text-green-700 hover:bg-green-50"
-                  onClick={() =>
-                    window.open(
-                      `https://wa.me/5517997398569?text=Desejo%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20extrusora%20${currentModel.name}%20da%20Erimak%20Brasil`,
-                      "_blank",
-                    )
-                  }
-                >
-                  <Download className="mr-2 h-4 w-4" /> Baixar Catálogo
-                </Button>
-              </div>
             </div>
           </TabsContent>
         </Tabs>

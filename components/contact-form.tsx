@@ -158,8 +158,8 @@ Mensagem: ${formData.message}
                   <MapPin className="h-5 w-5 text-green-700 mr-4 mt-0.5" />
                   <div>
                     <p className="font-medium">Endereço</p>
-                    <p className="text-gray-600">Av. Industrial, 1000</p>
-                    <p className="text-gray-600">São Paulo/SP - CEP 00000-000</p>
+                    <p className="text-gray-600">Rua Tietê, 4080</p>
+                    <p className="text-gray-600">Votuporanga/SP - CEP 88160-000</p>
                   </div>
                 </div>
               </div>

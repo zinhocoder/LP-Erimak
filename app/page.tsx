@@ -10,6 +10,7 @@ import FeatureSection from "@/components/feature-section"
 import ContactForm from "@/components/contact-form"
 import ProductDemo from "@/components/product-demo"
 import SpecsSection from "@/components/specs-section"
+import CompletedWorks from "@/components/completed-works"
 
 export default function Home() {
   const scrollToSection = (id: string) => {
@@ -74,6 +75,9 @@ export default function Home() {
 
       {/* Product Demo Section */}
       <ProductDemo />
+
+      {/* Completed Works Section */}
+      <CompletedWorks />
 
       {/* Testimonials Section */}
       <TestimonialSection />
